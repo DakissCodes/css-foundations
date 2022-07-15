@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    background-color: #EAF2F8;
+
+}
+ .whole-image {
+    height: auto;
+    width: 1000px;
+    margin: 30px auto auto auto; 
+    padding: 20px;
+    background-color: #D5F5E3;
+    border: 5px solid #2ECC71;
+    box-sizing: border-box;
+ }
+
+
+.flex-container {
+    display: flex
+}
+/* image & text */
+.image {
+    margin: 0px auto 30px auto;
+    display: block;
+    height:auto;
+    width: 1000px; 
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin: 30px 512px 30px 512px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    background-color: white;
+    color: black; 
+    margin: 0px;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #568caf;
+}
+/* upper items */
+
+.upper {
+    background-color: lightblue;
+    border: 5px solid #769db8;
+    height: 120px;
+
+}
+
+.upper-item {
+    flex: 1;
+    background-color: #73C6B6;
+    border: 5px solid #1cad90;
+    margin: 16px ;
+}
+
+.upper-item-collide-mid {
+    margin: 16px -5px 16px -5px
+}
+
+.upper-middle-item {
+    background-color: #85C1E9;
+    border: 5px solid #509ccf;
+    flex: 1;
+    margin: 5px;
+}
+
+.mid-items-collide {
+    margin-left: -5px
+}
+
+/* middle items */
+
+.bot-margin {
+    margin-bottom: 10px
+}
+
+.middle-left,
+.middle-right {
+    background-color: #D5F5E3;
+    border: 5px solid #5D6D7E;
+    flex: 1;
+
+}
+
+.middle-left {
+    margin-right: 10px;
+    background-color: #CCD1D1;
+    height: 235px;
+}
+
+.middle-right {
+    border: none;
+}
+
+.right-column {
+    height: 107px;
+    background-color: #CCD1D1;
+    border: 5px solid #5D6D7E;
+}
+
+/* lower items */
+
+.lower {
+    background-color: lightblue;
+    border: 5px solid #34495E;
+    height: 120px;    
+}
+
+.lower-item {
+    background-color: #FBFCFC;
+    border: 5px solid #7B7D7D;
+    margin: 15px;
+    flex: 1; 
+    display: inline-block;
+}
+
+.lower-item-middle {
+    background-color: #808B96;
+    border: 5px solid #1C2833;
+    flex: 1;
+    margin: 15px 5px 15px 5px;
+
+}
+
+#lower-right {
+    padding-right: 90px
+}
+
+#lower-left {
+    padding-left: 90px;
+}

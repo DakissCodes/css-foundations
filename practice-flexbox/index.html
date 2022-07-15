@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>FLEXBOX PRACTICE</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="whole-image">
+        <!-- upper container -->
+        <div class="flex-container upper bot-margin">
+
+            <!-- left item-->
+            <div class="upper-item"></div>
+            <!-- middle item-->
+            <div class="flex-container upper-item upper-item-collide-mid">
+
+                <div class="upper-middle-item"></div>
+                <div class="upper-middle-item mid-items-collide"></div>    
+
+            </div>
+
+            <!-- right item-->
+            <div class="upper-item "></div>
+
+        </div>
+
+        <!-- middle container --> 
+        <div class="flex-container bot-margin" style="background-color: #D5F5E3;">
+
+            <!-- left item -->
+            <div class="middle-left"></div>
+
+            <!-- right item-->
+            <div class="middle-right">
+
+                <!-- right column-->
+                <div class="right-column" style="margin-bottom: 11px"></div>
+                <div class="right-column"></div>
+
+            </div>
+
+        </div>
+
+        <!-- lower container -->
+        <div class="flex-container lower">
+
+            <!-- lower most-left item-->
+            <div class="lower-item" style="margin-right:5px" id="lower-right"></div>
+
+            <!-- middle pair item -->
+            <div class="lower-item-middle"></div> 
+            <div class="lower-item-middle"></div> 
+
+            <!-- lower most-right item-->
+            <div class="lower-item" style="margin-left: 5px" id="lower-left"></div>
+        
+        </div>
+        </div>
+        <div class="text">I recreated this <a href="https://www.theodinproject.com/lessons/foundations-introduction-to-flexbox">Flexbox example</a> found in The Odin Project CSS foundations below: </div>
+        <img src="the-odin-project-flexbox-image-example.png" alt="flexbox-example" class="image"> 
+    </body>
+</html>
